@@ -1,29 +1,65 @@
 body {
-	color: #191970;
-	background: url("https://bostonma.github.io/unit_1/images/asphaltgrass.jpg");
+	margin-top: 150px;
+	color: #000000;
+	background: url("https://bostonma.github.io/unit_1/images/sidewalk.jpg");
 	background-size: cover;
 	text-align: center;
 	font-family: "Futura", Arial, Sans-Serif;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 h1 {
-	font-size: 55px;
+	font-size: 100px;
 	font-variant: small-caps;
+	text-align: left;
 }
 h2 {
-	color: maroon;
-	font-weight: normal;
+	color: #FFFFFF;
 	font-style: italic;
 	font-variant: small-caps;
-	font-size: 30px;
+	font-size: 50px;
+	text-align: left;
 }
 h3 {
 	font-weight: 300;
-}
-ul {
 	text-align: left;
-	display: inline-block;
+	font-size: 30px;
+}
+nav {
+	margin-top: -100px;
+	float: right;
+	color: #FFFFFF;
+    width: 300x;
+    border: 3px;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: 10px;
+    /*text-align: center;*/
+    padding: 5px;
+    display: inline;
+}
+.neighborhoodlist {
+	margin-top: -130px;
+	text-align: right;
 	font-variant: small-caps;
-	list-style: circle;
+	font-size: 30px;
+}
+.neighborhoods {
+	list-style-type: none;
+}
+.navlist {
+	list-style-type: none;
+	font-size:18px;
+}
+.menuitems {
+	display: inline;
+	/*text-align: center;*/
+}
+a {
+	color: blue;
 }
 hr {
-	width: 300px;
+	width: 500px;
+	height: 5px;
+	background-color: yellow;
+}
