@@ -1,6 +1,6 @@
 body {
 	color: #191970;
-/*	background: url(images/bostonblue.png) pink;*/
+	background: url("https://bostonma.github.io/unit_1/images/brickcoffee.jpg");
 	background-size: cover;
 	text-align: center;
 	font-family: "Futura", Arial, Sans-Serif;
@@ -28,10 +28,7 @@ ul {
 hr {
 	width: 300px;
 }
-a {
-	color: green;
-}
-img {
+/*img {
 	background-color: #4682B4;
 	padding-top: 25px;
 	padding-right: 25px;
@@ -42,4 +39,4 @@ img {
 	display: center;
 	width: auto;
 	max-width: 75%;
-}
+}*/
