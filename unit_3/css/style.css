@@ -1,0 +1,70 @@
+body {
+	color: #FFFFFF;
+	background: url("https://bostonma.github.io/unit_1/images/sidewalkblue.jpg");
+	background-size: cover;
+	text-align: center;
+	font-family: "Futura", Arial, Sans-Serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+h1 {
+	padding-top: 90px;
+	font-size: 80px;
+	font-weight: 100;
+	font-variant: small-caps;
+	text-align: left;
+}
+h2 {
+	padding-top: 45px;
+	font-weight: 100;
+	text-align: left;
+	font-size: 25px;
+}
+p {
+	font-size: 20px;
+	font-family: Arial;
+}
+nav {
+	float: right;
+    border-radius: 50px;
+    border: 2px;
+    border-style: dashed;
+}
+a {
+	color: #FFFF00;
+}
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 500px;
+	height: 3px;
+	background-color: #FFFF00;
+}
+footer {
+	font-style: italic; 
+}
+.neighborhoodbox {
+	text-align: right;
+	font-variant: small-caps;
+	font-size: 30px;
+}
+.neighborhoods {
+	list-style-type: none;
+}
+.navlinks{
+	color: #00FFFF;
+}
+.menuitems {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	font-size: 17px;
+}
+#slogan {
+	color: #FFFF00;
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: 45px;
+	text-align: left;
+}
