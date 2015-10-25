@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Forum);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
 body {
-	color: #FFFFFF;
-	background: url("https://bostonma.github.io/unit_3/images/sidewalkblue.jpg");
-	background-size: cover;
+	color: #000;
+	background: #FFF;
 	text-align: center;
 	font-family: "Futura", Arial, Sans-Serif;
 	margin-left: 50px;
@@ -11,14 +10,13 @@ body {
 	margin-top: 20px;
 }
 h1 {
-	font-family: 'Fredericka the Great', Georgia, serif;
+	font-family: "Fredericka the Great", "Futura", Georgia, serif;
 	padding-top: 90px;
 	font-size: 80px;
 	font-weight: 100;
 	font-variant: small-caps;
 	text-align: left;
 	letter-spacing: 0.09em;
-	text-shadow: 9px 9px 9px #000;
 }
 h2 {
 	letter-spacing: 0.08em;
@@ -32,95 +30,61 @@ p {
 	font-size: 20px;
 }
 nav {
-	font-family: 'Forum';
+	font-family: Georgia;
 	float: right;
     border-radius: 50px;
     border: 2px;
     border-style: dashed;
 }
 a {
-	color: #FFFF00;
+	color: #F7C111;
 }
 hr {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 500px;
-	height: 3px;
-	background-color: #FFFF00;
+	height: 2px;
+ 	border: none;
+  	border-top: 2px dashed #000;
+	width: 50%;
 }
 footer {
-	font-family: 'Forum';
-	font-style: italic; 
-}
-.hero img {
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+	font-family: Georgia;
+	margin-bottom: 30px;
 }
 .neighborhoodbox {
-	text-align: right;
+	margin-top: 450px;
+	text-align: left;
 	font-variant: small-caps;
 	font-size: 30px;
+	color: #F7C111;
 }
 .neighborhoods {
 	list-style-type: none;
 }
 .navlinks{
-	color: #00FFFF;
+	color: #1B6CE8;
 }
 .menuitems {
 	display: inline;
-	padding: 5px;
-	margin-right: 10px;
+	padding: 4px;
+	margin-right: 32px;
 	font-size: 17px;
 }
+.button {
+	width: 250px;
+	height: 250px;
+	background: #888;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 3.8%
+}
 #slogan {
-	color: #FFFF00;
+	color: #F7C111;
+	text-shadow: .03em .03em .03em #333;
 	font-style: italic;
 	font-variant: small-caps;
 	font-size: 45px;
+	font-weight: normal;
 	text-align: left;
 }
-/*#hamburgertoggle {
-  	position: relative;
-  	width: 30px;
-  	height: 26px;
-  	margin: 30px auto;
-  	input {
-   	 	position: absolute;
-    	top: -3px;
-    	left: -3px;
-    	width: 100%;
-    	height: 100%;
-    	z-index: 1;
-    	opacity: 0;
-    	cursor: pointer;
-    	&:checked {
-      		+ span {
-        		background: transparent;
-        		&:after {
-          		transform: rotate(45deg) translate(-1px, -8px);
-        		}
-        		&:before {
-          		transform: rotate(-45deg) translate(-4px, 12px);
-        		}
-      		}
-    	}
-  	}
-  	span {
-    	position: absolute;
-	    width: 100%;
-	    height: 5px;
-	    background: #fff;
-	    margin-top: 10px;
-    	&:before, &:after {
-      		content: "";
-			position: absolute;
-			width: 100%;
-			height: 5px;
-			background: #fff;
-			top: -9px;
-			transition: 0.3s;
-    	}
-    	&:after {
-      		top: 9px;
-    	}
-}*/
