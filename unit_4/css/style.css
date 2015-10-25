@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Forum);
+
 body {
 	color: #FFFFFF;
 	background: url("https://bostonma.github.io/unit_3/images/sidewalkblue.jpg");
@@ -9,6 +11,7 @@ body {
 	margin-top: 20px;
 }
 h1 {
+	font-family: 'Fredericka the Great', Georgia, serif;
 	padding-top: 90px;
 	font-size: 80px;
 	font-weight: 100;
@@ -29,6 +32,7 @@ p {
 	font-size: 20px;
 }
 nav {
+	font-family: 'Forum';
 	float: right;
     border-radius: 50px;
     border: 2px;
@@ -45,6 +49,7 @@ hr {
 	background-color: #FFFF00;
 }
 footer {
+	font-family: 'Forum';
 	font-style: italic; 
 }
 .hero img {
@@ -74,3 +79,48 @@ footer {
 	font-size: 45px;
 	text-align: left;
 }
+/*#hamburgertoggle {
+  	position: relative;
+  	width: 30px;
+  	height: 26px;
+  	margin: 30px auto;
+  	input {
+   	 	position: absolute;
+    	top: -3px;
+    	left: -3px;
+    	width: 100%;
+    	height: 100%;
+    	z-index: 1;
+    	opacity: 0;
+    	cursor: pointer;
+    	&:checked {
+      		+ span {
+        		background: transparent;
+        		&:after {
+          		transform: rotate(45deg) translate(-1px, -8px);
+        		}
+        		&:before {
+          		transform: rotate(-45deg) translate(-4px, 12px);
+        		}
+      		}
+    	}
+  	}
+  	span {
+    	position: absolute;
+	    width: 100%;
+	    height: 5px;
+	    background: #fff;
+	    margin-top: 10px;
+    	&:before, &:after {
+      		content: "";
+			position: absolute;
+			width: 100%;
+			height: 5px;
+			background: #fff;
+			top: -9px;
+			transition: 0.3s;
+    	}
+    	&:after {
+      		top: 9px;
+    	}
+}*/
