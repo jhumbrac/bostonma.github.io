@@ -9,13 +9,13 @@ body {
 	color: #000;
 	background: #FFF;
 	text-align: center;
-	font-family: "Futura", Arial, Sans-Serif;
-	margin-left: 50px;
+	font-family: "Futura", Arial, Sans-Serif; /*Does Futura have to be in quotes?
+	margin-left: 50px;*/
 	margin-right: 50px;
 	margin-top: 20px;
 }
 h1 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif;
+	font-family: "Fredericka the Great", "Futura", Georgia, serif; /*Does Futura have to be in quotes?*/
 	padding-top: 90px;
 	font-size: 80px;
 	font-weight: 100;
@@ -32,11 +32,24 @@ h2 {
 	font-size: 28px;
 	line-height: 1.6em;
 }
+h3 {
+	font-family: "Fredericka the Great", "Futura", Georgia, serif; /*Does Futura have to be in quotes?*/
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: 0.06em;
+	color: #000;
+	text-align: center;
+}
 p {
 	font-size: 20px;
 }
 aside {
 	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
 }
@@ -48,6 +61,13 @@ nav {
     border-style: dashed;
     background-color: #E8C66A;
 }
+footer {
+	font-family: Georgia;
+	margin-bottom: 30px;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
 hr {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -56,26 +76,18 @@ hr {
   	border-top: 2px dashed #000;
 	width: 50%;
 }
-footer {
-	font-family: Georgia;
-	margin-bottom: 30px;
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+a {
+  text-decoration: none;
 }
 .illustrations {
 	max-width: 100%
 }
-article {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
+
 .navlinks{
 	color: #1B6CE8;
 }
 .menuitems {
-	display: inline;
+	display: inline; /*Can these items be centered in the dashed box any better?*/
 	padding: 4px;
 	margin-right: 32px;
 	font-size: 17px;
@@ -86,6 +98,36 @@ article {
     padding: 20px;
 }
 .illustration_stripes {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+.button {
+    background-color: #4EC2EC;
+    border-radius: 30%;
+    display: inline-block;
+    padding: 1.5em;
+    height: 150px;
+    width: 150px;
+    margin: 1.5em;
+}
+.button:hover {
+	background-color: #7FF8EE;
+  	border: 3px;
+  	height: 157;
+    width: 157;
+    margin: 1.4em; /*I'm trying to get the circles not to move due to the outlines when I hover over them*/
+    border-style: solid;
+    border-color: orange;
+}
+.buttontext {
+	margin: 0;
+	padding: 0;
+/*	line-height: 42px;*/
+	display: center; /*Why do some labels appear wonky?*/
+	max-height: 12em;
+}
+.horizontalrule {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
@@ -102,11 +144,6 @@ article {
     border: 1px black solid;
     padding: 20px;
 }
-#two {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
 #description {
 	background-color: #FFE2B8;
     border: 1px black solid;
@@ -117,45 +154,9 @@ article {
     border: 1px black solid;
     padding: 20px;
 }
-a {
-  text-decoration: none;
-}
-#buttons{
+#buttons{						/*Should this be a class or an ID? Why does it matter?*/
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
     text-align: center;
-}
-.button {
-    background-color: #4EC2EC;
-    border-radius: 30%;
-    display: inline-block;
-    padding: 1.5em;
-    height: 150px;
-    width: 150px;
-    margin: 1.5em;
-    text-align: center;
-}
-.button:hover {
-	background-color: #7FF8EE;
-/*  border: 3px;
-    height: 197px;
-    width: 197px;
-    margin: 1.4em; I'm trying to get the circles not to move due to the outlines when I hover over them
-    border-style: solid;
-    border-color: orange;*/
-}
-.buttontext {
-	margin: 0;
-	padding: 0;
-	line-height: 42px;
-	display: center;
-}
-h3 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif;
-	font-size: 2em;
-	font-weight: 100;
-	letter-spacing: 0.09em;
-	color: #000;
-	text-align:center;
 }
