@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+body {
+	color: #000;
+	background: #FFF;
+	text-align: center;
+	font-family: "Futura", Arial, Sans-Serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+h1 {
+	font-family: "Fredericka the Great", "Futura", Georgia, serif;
+	padding-top: 90px;
+	font-size: 80px;
+	font-weight: 100;
+	font-variant: small-caps;
+	text-align: left;
+	letter-spacing: 0.09em;
+}
+h2 {
+	text-align: center;
+	letter-spacing: 0.08em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 100;
+	font-size: 28px;
+	line-height: 1.6em;
+}
+p {
+	font-size: 20px;
+}
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+	font-family: Georgia;
+	float: right;
+    border-radius: 50px;
+    border: 2px;
+    border-style: dashed;
+    background-color: #E8C66A;
+}
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 2px;
+ 	border: none;
+  	border-top: 2px dashed #000;
+	width: 50%;
+}
+footer {
+	font-family: Georgia;
+	margin-bottom: 30px;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+.illustrations {
+	max-width: 100%
+}
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+.navlinks{
+	color: #1B6CE8;
+}
+.menuitems {
+	display: inline;
+	padding: 4px;
+	margin-right: 32px;
+	font-size: 17px;
+}
+.wrapper {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+.illustration_stripes {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#slogan {
+	color: #F7C111;
+	text-shadow: .03em .03em .03em #333;
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: 45px;
+	font-weight: 100;
+	text-align: left;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#two {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#description {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#features {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+#buttons{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+/*    text-align: center;
+*/}
+.button {
+    background-color: #4EC2EC;
+    border-radius: 30%;
+    display: inline-block;
+    padding: 1.5em;
+    height: 150px;
+    width: 150px;
+    margin: 1.5em;
+    text-align: center;
+}
+.button:hover {
+	background-color: #7FF8EE;
+/*  border: 3px;
+    height: 197px;
+    width: 197px;
+    margin: 1.4em; I'm trying to get the circles not to move due to the outlines when I hover over them
+    border-style: solid;
+    border-color: orange;*/
+}
+.buttontext {
+	margin: 0;
+	padding: 0;
+	line-height: 42px;
+	display: center;
+}
+h3 {
+	font-family: "Fredericka the Great", "Futura", Georgia, serif;
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: 0.09em;
+	color: #000;
+	text-align:center;
+}
