@@ -82,7 +82,6 @@ a {
 .illustrations {
 	max-width: 100%
 }
-
 .navlinks{
 	color: #1B6CE8;
 }
@@ -103,29 +102,47 @@ a {
     padding: 20px;
 }
 .button {
+    display: center;
     background-color: #4EC2EC;
     border-radius: 30%;
-    display: inline-block;
-    padding: 1.5em;
-    height: 150px;
-    width: 150px;
-    margin: 1.5em;
+ 	float: left; /*note: if i didn't also use a clearfix class within the greater section, this pushed my buttons out of the previous sections */  
+	padding: 2em;
+    height: 175px;
+    width: 175px;
+    margin: 2em;
+    border: 3px;
+    border-style: solid;
+    border-color: #000;
 }
 .button:hover {
 	background-color: #7FF8EE;
   	border: 3px;
-  	height: 157;
-    width: 157;
-    margin: 1.4em; /*I'm trying to get the circles not to move due to the outlines when I hover over them*/
-    border-style: solid;
+	border-style: solid;
     border-color: orange;
 }
-.buttontext {
-	margin: 0;
+.buttontext-oneline { 	
+	margin-top: 4.5em;
 	padding: 0;
-/*	line-height: 42px;*/
-	display: center; /*Why do some labels appear wonky?*/
-	max-height: 12em;
+	line-height: 3em;
+	text-align: center;
+	font-size: 15px;
+}
+.buttontext-twolines { 	
+	margin-top: 3em;
+	padding: 0;
+	line-height: 3em;
+	text-align: center;
+	font-size: 15px;
+}
+.buttontext-fourlines { 	
+	margin-top: -2em;
+	padding: 0;
+	line-height: 3em;
+	text-align: center;
+	font-size: 15px;
+}
+.clearfix {
+	overflow:hidden;
 }
 .horizontalrule {
 	background-color: #FFE2B8;
@@ -159,4 +176,5 @@ a {
     border: 1px black solid;
     padding: 20px;
     text-align: center;
+    display: center;
 }
