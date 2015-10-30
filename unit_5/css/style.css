@@ -15,7 +15,7 @@ body {
 	margin-top: 20px;
 }
 h1 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif; /*Does Futura have to be in quotes?*/
+	font-family: "Fredericka the Great", "Futura", Georgia, serif; 
 	padding-top: 90px;
 	font-size: 80px;
 	font-weight: 100;
@@ -33,7 +33,7 @@ h2 {
 	line-height: 1.6em;
 }
 h3 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif; /*Does Futura have to be in quotes?*/
+	font-family: "Fredericka the Great", "Futura", Georgia, serif; 
 	font-size: 2em;
 	font-weight: 100;
 	letter-spacing: 0.06em;
@@ -166,15 +166,18 @@ a {
     border: 1px black solid;
     padding: 20px;
 }
-#features {
+#clickablemap {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
-#buttons{						/*Should this be a class or an ID? Why does it matter?*/
+#buttons {						
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
     text-align: center;
     display: center;
+}
+#aerialmap {
+	border-radius: 50%;
 }
