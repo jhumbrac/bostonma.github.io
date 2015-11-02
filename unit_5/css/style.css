@@ -7,9 +7,6 @@ body {
 	background: #FFF;
 	text-align: center;
 	font-family: "Futura", Arial, sans-serif; /*Does Futura have to be in quotes?*/
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 20px;
 }
 header {
     background-color: #FFED74;
@@ -104,8 +101,9 @@ h1 span {
 }
 .wrapper {
 	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	max-width:1200px;
+	margin:auto;
 }
 .illustration-stripes {
 	background-color: #FFE2B8;
