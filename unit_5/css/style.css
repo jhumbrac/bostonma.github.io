@@ -156,6 +156,10 @@ span {
     border: 1px black solid;
     padding: 20px;
 }
+.neighborhood-subtitle {
+	font-size: 50px;
+	font-variant: small-caps;
+}
 #slogan {
 	color: #FF8526;
 	text-shadow: .03em .03em .03em #333;
