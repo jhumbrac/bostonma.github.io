@@ -176,12 +176,12 @@ span {
 #description-image {
 	border: 1px blue solid;
 	float: left;
-	width: 400px;
+	width: 3px;
 }
 #description-text {
 	border: 1px blue solid;
 	float: right;
-	width: 800px;
+	width: 600px;
 	text-align:left;
 }
 #clickablemap {
