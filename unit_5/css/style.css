@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open-Sans|Futura);
 
 header {
     background-color: #FFED74;
@@ -7,21 +7,25 @@ header {
 }
 body {
 	color: #000;
+	font-size: 20px;
 	background: #FFF;
 	text-align: center;
-	font-family: "Futura", Arial, Sans-Serif; /*Does Futura have to be in quotes?
-	margin-left: 50px;*/
+	font-family: "Futura", Arial, sans-serif; /*Does Futura have to be in quotes?*/
+	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 20px;
 }
 h1 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif; 
+	font-family: "Fredericka the Great", Georgia, serif; 
 	padding-top: 90px;
-	font-size: 80px;
+	font-size: 90px;
 	font-weight: 100;
 	font-variant: small-caps;
 	text-align: left;
 	letter-spacing: 0.09em;
+}
+span {
+	font-size: 100px;
 }
 h2 {
 	text-align: center;
@@ -33,7 +37,7 @@ h2 {
 	line-height: 1.6em;
 }
 h3 {
-	font-family: "Fredericka the Great", "Futura", Georgia, serif; 
+	font-family: "Fredericka the Great", Georgia, serif; 
 	font-size: 2em;
 	font-weight: 100;
 	letter-spacing: 0.06em;
@@ -54,7 +58,7 @@ article {
     padding: 20px;
 }
 nav {
-	font-family: Georgia;
+	font-family: "Open Sans", Arial, sans-serif;
 	float: right;
     border-radius: 50px;
     border: 2px;
@@ -62,7 +66,6 @@ nav {
     background-color: #E8C66A;
 }
 footer {
-	font-family: Georgia;
 	margin-bottom: 30px;
 	background-color: #FF957E;
     border: 1px black solid;
@@ -79,6 +82,10 @@ hr {
 a {
   text-decoration: none;
 }
+span {
+	font-color: #009900;
+	font-variant: small-caps;
+}
 .illustrations {
 	max-width: 100%
 }
@@ -89,14 +96,14 @@ a {
 	display: inline; /*Can these items be centered in the dashed box any better?*/
 	padding: 4px;
 	margin-right: 32px;
-	font-size: 17px;
+	font-size: 18px;
 }
 .wrapper {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
-.illustration_stripes {
+.illustration-stripes {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
@@ -150,10 +157,10 @@ a {
     padding: 20px;
 }
 #slogan {
-	color: #F7C111;
+	color: #FF8526;
 	text-shadow: .03em .03em .03em #333;
+	font-family: "Futura", "Arial", sans-serif;
 	font-style: italic;
-	font-variant: small-caps;
 	font-size: 45px;
 	font-weight: 100;
 	text-align: left;
@@ -165,6 +172,17 @@ a {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+}
+#description-image {
+	border: 1px blue solid;
+	float: left;
+	width: 400px;
+}
+#description-text {
+	border: 1px blue solid;
+	float: right;
+	width: 800px;
+	text-align:left;
 }
 #clickablemap {
 	background-color: #FFE2B8;
