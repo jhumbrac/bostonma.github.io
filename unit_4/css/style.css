@@ -48,6 +48,9 @@ hr {
   	border-top: 2px dashed #000;
 	width: 50%;
 }
+header {
+	background-color: yellow;
+}
 footer {
 	font-family: Georgia;
 	margin-bottom: 30px;
