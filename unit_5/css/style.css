@@ -1,26 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open-Sans|Futura);
 
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing:border-box; } /*This is my CSS reset*/
 body {
-	color: #000;
+	color: #222; /*This is what Google uses as the body font color*/
 	font-size: 20px;
-	background: #FFF;
+	background: #fafafa;
 	text-align: center;
 	font-family: "Futura", Arial, sans-serif; /*Does Futura have to be in quotes?*/
 }
 header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+/*    background-color: #FFED74;
+*/    padding: 20px;
 }
 aside {
 	background-color: #FFC675;
-    border: 1px black solid;
     padding: 20px;
 }
 article {
 	background-color: #E89C6C;
-    border: 1px black solid;
     padding: 20px;
 }
 nav {
@@ -29,7 +26,13 @@ nav {
     border-radius: 50px;
     border: 2px;
     border-style: dashed;
-    background-color: #E8C66A;
+    padding: 15px;
+}
+nav a{
+	color: #1B6CE8;
+	display: inline;
+	padding: 13px;
+	font-size: 16px;
 }
 footer {
 	margin-bottom: 30px;
@@ -46,31 +49,33 @@ h1 {
 	text-align: left;
 	letter-spacing: 0.09em;
 }
-span {
-	font-size: 100px;
-}
 h2 {
 	text-align: center;
 	letter-spacing: 0.08em;
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	font-weight: 100;
-	font-size: 28px;
+	font-size: 40px;
 	line-height: 1.6em;
 }
 h3 {
 	font-family: "Fredericka the Great", Georgia, serif; 
 	font-size: 2em;
-	font-weight: 100;
+	font-weight: 300; /*Is this good enough for a larger screen, but still good for mobile?*/
 	letter-spacing: 0.06em;
 	color: #000;
 	position: absolute;
 	top:50%;
 	left:50%;
-	transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%); /*This works in Chrome, but not Safari. In Safari, origin is still in the direct middle, so the text is the bottom right.*/
+}
+h4 {
+	font-size: 25px;
+	text-align: center;
 }
 p {
 	font-size: 20px;
+	text-align: left;
 }
 hr {
 	margin-top: 30px;
@@ -84,31 +89,20 @@ a {
   text-decoration: none;
 }
 h1 span {
-	color: #009900;
-	font-variant: small-caps;
+	font-size: 100px;
 }
 .illustrations {
 	max-width: 100%
 }
-.navlinks{
-	color: #1B6CE8;
-}
-.menuitems {
-	display: inline; /*Can these items be centered in the dashed box any better?*/
-	padding: 4px;
-	margin-right: 32px;
-	font-size: 18px;
-}
 .wrapper {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+/*	background-color: #eee;
+*/	border: 1px black solid;
 	max-width:1200px;
 	margin:auto;
 }
 .illustration-stripes {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+/*	background-color: pink;
+    padding: 20px;*/
 }
 .button {
     background-color: #4EC2EC;
@@ -129,7 +123,7 @@ h1 span {
 	border-style: solid;
     border-color: orange;
 }
-.buttontext-oneline { 	
+/*.buttontext-oneline { 	
 	margin-top: 4.5em;
 	padding: 0;
 	line-height: 3em;
@@ -149,58 +143,64 @@ h1 span {
 	line-height: 3em;
 	text-align: center;
 	font-size: 15px;
-}
+}*/
 .clearfix {
 	overflow:hidden;
 }
 .horizontalrule {
-	background-color: #FFE2B8;
-    border: 1px black solid;
+	background-color: #B0C4DE;
     padding: 20px;
 }
 .neighborhood-subtitle {
 	font-size: 50px;
 	font-variant: small-caps;
 }
+.buttons {						
+    background-color: #FF4500;
+    padding: 20px;
+    text-align: center;
+    display: center;
+}
+.buttons-major {
+	background-color: #7FFF00;
+}
+.buttons-metro {
+	background-color: #8FBC8F;
+}
+.buttons-micro {
+	background-color: #DDA0DD;
+}
 #slogan {
-	color: #FF8526;
-	text-shadow: .03em .03em .03em #333;
+	color: #F7C111;
+	text-shadow: .02em .02em .02em #333;
 	font-family: "Futura", "Arial", sans-serif;
 	font-style: italic;
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: 100;
 	text-align: left;
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+	padding-top: 20px;
+}
+#slogan span {
+	color: #FF8526;
 }
 #description {
-	background-color: #FFE2B8;
-    border: 1px black solid;
+	background-color: #8A2BE2;
     padding: 20px;
 }
 #description-image {
-	border: 1px blue solid;
+	border: 1px black solid;
 	float: left;
-	width: 3px;
+	width: 400px;
 }
 #description-text {
-	border: 1px blue solid;
+	border: 1px black solid;
 	float: right;
 	width: 600px;
 	text-align:left;
 }
 #clickablemap {
-	background-color: #FFE2B8;
-    border: 1px black solid;
+	background-color: #F08080;
     padding: 20px;
-}
-#buttons {						
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-    text-align: center;
-    display: center;
 }
 #aerialmap {
 	border-radius: 50%;
