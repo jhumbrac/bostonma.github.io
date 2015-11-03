@@ -31,7 +31,7 @@ nav {
 nav a{
 	color: #1B6CE8;
 	display: inline;
-	padding: 13px;
+	padding: 13mpx;
 	font-size: 16px;
 }
 footer {
@@ -101,8 +101,8 @@ h1 span {
 	margin:auto;
 }
 .illustration-stripes {
-/*	background-color: pink;
-    padding: 20px;*/
+	background-color: pink;
+    padding: 20px;
 }
 .button {
     background-color: #4EC2EC;
