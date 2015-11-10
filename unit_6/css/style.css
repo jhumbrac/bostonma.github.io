@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Futura);
+
+* { margin:0; padding:0; box-sizing:border-box; } /*This is my CSS reset*/
+
+body {
+    color: #3b444f;
+    font-size: 18px;
+    background: #f5f5f5;
+    font-family: "Futura";
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px #999;
+}
+nav {
+    font-family: "Open Sans";
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+/*    background-color: #184281; dark blue
+*/    background-color: #4EC2EC;
+    width: 50%;
+/*    opacity: 0.75;
+*/    float: right;
+    font-size: .9em;
+    box-shadow: 1px 1px 10px #999;
+}
+nav a{
+    color: #fff;
+    margin: 13px;
+    display: inline-block;
+}
+footer {
+    margin-bottom: 30px;
+    background-color: #4EC2EC;    
+    padding: 20px;
+    font-family: "Open Sans," Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+h1 {
+    font-family: "Fredericka the Great", Georgia, serif; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: 100;
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 0.09em;
+}
+h2 {
+    text-align: center;
+    letter-spacing: 0.08em;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 1.6em;
+}
+h3 {
+    font-family: "Fredericka the Great", Georgia, serif; 
+    font-size: 1.5em;
+    font-weight: 300; /*Is this good enough for a larger screen, but still good for mobile?*/
+    letter-spacing: 0.06em;
+    color: #000;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); /*This works in Chrome, but not Safari. In Safari, origin is still in the direct middle, so the text is the bottom right.*/
+}
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    text-align: left;
+}
+a {
+  text-decoration: none;
+}
+h1 span {
+    font-size: 80px;
+}
+section {
+    background-color: #eee;
+}
+li {
+    list-style: none;
+}
+.wrapper {
+    max-width:1000px;
+    margin:auto;
+}
+.illustration-stripes {
+    background-color: #fff;
+}
+.illustrations {
+    width: 100%;
+}
+.button {
+/*    background-color: #f5f5f5; gray color
+*/    background-color: #4EC2EC;
+    border-radius: 30%;
+    display:block;
+    float: left; 
+    height: 200px;
+    width: 20%;
+    min-width: 185px;
+    margin: 2.46%;
+    border: 3px solid #fff;
+    position:relative;
+}
+.button:hover {
+/*    background-color: #ddd; dark gray color
+*/    background-color: #7FF8EE;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content:" ";
+    clear: both;
+    height: 0;
+}
+.neighborhood-type {                      
+    display: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px #999;
+    background: #fff;
+}
+.major {
+    background-color: #ffffee;
+}
+.metro {
+    background-color: #ffffee;
+}
+.micro {
+    background-color: #ffffee;
+}
+.neighborhood-tag {
+    text-align: left;
+    margin: 10px auto 10px 50px;
+}
+.neighborhood-text {
+    margin: 50px;
+}
+#slogan {
+    color: #F7C111;
+    font-family: "Futura";
+    color: #777;
+    color: #FF8526;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#slogan span {
+  color: #F7C111;
+}
+#multi-column {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px #999;
+}
+#column {
+    border: 1px solid black;
+    padding: 1%;
+    float: left;
+    width: 15%;
+    margin: .5%;
+    float: left;
+}
+#aside-image {
+    width: 100%;
+}
+#clickablemap {
+    background-color: #fff;
+/*    border: 1px solid black;
+*/    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        box-shadow: 1px 1px 10px #999;
+
+}
+#aerialmap {
+    border-radius: 50%;
+    width: 100%;
+}
