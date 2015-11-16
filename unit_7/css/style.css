@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Roboto);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Didact+Gothic);
 
 /*Cannot get Futura to work on IE-10
 */
@@ -104,6 +104,7 @@ li {
 }
 .illustration-stripes {
     background-color: #fff;
+    line-height:0;
 }
 .illustrations {    /*Why can't I get rid of the 4 pixels of white space below the illustrations?*/
     width: 100%;
@@ -141,13 +142,13 @@ li {
     background: #fff;
 }
 .major {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 .metro {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 .micro {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 .neighborhood-tag {
     text-align: left;
@@ -164,7 +165,7 @@ li {
 }
 #slogan {
     color: #F7C111;
-    font-family: "Futura";
+    font-family: "Futura", "Trebuchet MS", "Didact Gothic"; 
     color: #777;
     color: #FF8526;
     font-size: 35px;
@@ -196,7 +197,7 @@ li {
     width: 50%;
 }
 #clickablemap {
-    background-color: #fff;
+    background-color: #ffffee;
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
