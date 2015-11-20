@@ -102,8 +102,7 @@ li {
 .header-text {
     padding: 20px 20px 0px 40px;
 }
-.illustration-stripes {
-    background-color: #fff;
+.grass-illustration {
     line-height:0;
 }
 .illustrations {    /*Why can't I get rid of the 4 pixels of white space below the illustrations?*/
@@ -162,6 +161,11 @@ li {
     text-align: right;
     margin-right: 10px;
 }
+#logo {
+	float: left;
+	background-color: #fff;
+	width: 33.33%;
+}
 #slogan {
     color: #F7C111;
     font-family: "Futura", "Trebuchet MS", "Didact Gothic"; 
@@ -172,6 +176,7 @@ li {
     text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
+      float: right;
 }
 #slogan span {
   color: #F7C111;
