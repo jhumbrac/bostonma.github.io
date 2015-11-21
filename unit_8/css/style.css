@@ -1,26 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Didact+Gothic);
 
-/*Cannot get Futura to work on IE-10
-*/
-* { margin:0; padding:0; box-sizing:border-box; } /*This is my CSS reset*/
-
 body {
     color: #3b444f;
     font-size: 18px;
     background: #f5f5f5;
-    font-family: "Futura";
+    font-family: "Futura", "Trebuchet MS", "Didact Gothic";
     background-color: #eee;
-
 }
 header {
     background-color: #4EC2EC;
 }
 nav {
-    font-family: "Open Sans";
+    font-family: "Open Sans", "Arial", sans-serif;
     padding: 10px;
-/*    margin-top: 30px;
-    margin-bottom: 30px;*/
-    background-color: #4EC2EC;
     width: 50%;
     float: right;
     font-size: .9em;
@@ -28,7 +20,7 @@ nav {
 nav a{
     color: #fff;
     margin: 3.25%;
-    display: inline-block;
+	display: inline-block;
 }
 footer a {
     color: #fff;
@@ -67,13 +59,13 @@ h2 {
 h3 {
     font-family: "Fredericka the Great", Georgia, serif; 
     font-size: 1.5em;
-    font-weight: 300; /*Is this good enough for a larger screen, but still good for mobile?*/
+    font-weight: 300; 
     letter-spacing: 0.06em;
     color: #000;
     position: absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%,-50%); /*This works in Chrome, but not Safari. In Safari, origin is still in the direct middle, so the text is the bottom right.*/
+    transform:translate(-50%,-50%); 
 }
 h4 {
     font-size: 25px;
@@ -98,6 +90,12 @@ li {
 figcaption {
 	font-size: 16px;
 }
+.heading {
+    padding: 10px;
+    width: 50%;
+    float: left;
+    line-height: 0;
+}
 .wrapper {
     max-width:1000px;
     margin:auto;
@@ -105,9 +103,6 @@ figcaption {
 .header-text {
     padding: 20px 20px 0px 40px;
 }
-.grass-illustration {
-/*    line-height:0;
-*/}
 .neighborhood-button {
     background-color: #4EC2EC;
     border-radius: 30%;
@@ -154,6 +149,7 @@ figcaption {
 }
 .neighborhood-text {
     margin: 30px 50px 10px 50px;
+    line-height: 1.5em;
 }
 .icon-attribution {
     font-size: .6em;
@@ -161,21 +157,14 @@ figcaption {
     text-align: right;
     margin-right: 10px;
 }
-.icon-group {
-	float: right;
-	width: 60%;
+.button {
+  margin-top: 15px;
 }
-.heading {
-    padding: 10px;
-/*    margin-top: 30px;
-    margin-bottom: 30px;*/
-    width: 50%;
-    float: left;
-    line-height: 0;
-
+.six-icons {
+	background: white;
 }
 #bt-logo {
-	width: 78%;
+	width: 50%;
 }
 #pig {
 	border-radius: 20%;
@@ -191,21 +180,19 @@ figcaption {
     text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    float: right;
-/*    border: 1px solid black;
-    background: yellow;*/
+	line-height: 1.5em;
     width: 60%;
 }
 #slogan span {
   color: #F7C111;
 }
-#multi-column {
-/*    background-color: #fff;
-*/    padding: 20px;
+#slogan-features {
+	padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-/*    box-shadow: 1px 1px 10px #999;
-    background: red;*/
+    box-shadow: 1px 1px 10px #999;
+    background: url("https://bostonma.github.io/unit_8/images/stockidea1.png");
+  	background-size: cover;
 }
 #column {
     background-color: #f5f5f5;
@@ -214,8 +201,6 @@ figcaption {
     margin: 1%;
     float: left;
     text-align: center;
-    border: 1px solid black;
-
 }
 #aside-image {
     width: 50%;
@@ -241,6 +226,9 @@ figcaption {
    width: 50%;
    margin-top: 5px;
 }
-.button {
-  margin-top: 15px;
+#map {
+	width: 500px;
+    height: 400px;
+    background-color: #CCC;
 }
+

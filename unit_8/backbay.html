@@ -2,8 +2,21 @@
 <html>
 <head>
 	<title>Back Bay</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	</title>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+      	function initialize() {
+        	var mapCanvas = document.getElementById('map');
+        	var mapOptions = {
+          	center: new google.maps.LatLng(44.5403, -78.5463),
+          	zoom: 8,
+          	mapTypeId: google.maps.MapTypeId.ROADMAP
+        	}
+        	var map = new google.maps.Map(mapCanvas, mapOptions)
+      	}
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
 	<div class="wrapper">
@@ -13,7 +26,7 @@
 			<a href="contact.html">Contact Us</a>
 			<a href="#">Download Our App</a>
 		</nav>
-		<header style="clear:both">
+		<div style="clear:both">
 		<div class="header-text">
 			<h1>Back Bay</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -23,10 +36,8 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div class="illustration-stripes">
-			<img class="illustrations" src="https://bostonma.github.io/unit_6/images/grass_drawinggg.png">
-		</div>	
-		</header>		
+		<div id="map"></div>	
+	</div>		
 	<footer>Contact us at <a class="navlinks" href="mailto:bostontrotter@gmail.com">bostontrotter@gmail.com</a></footer>
 	</div>
 </body>
