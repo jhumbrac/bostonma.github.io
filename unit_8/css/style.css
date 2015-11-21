@@ -9,8 +9,8 @@ body {
 }
 header {
     background-color: #4EC2EC;
-    background: navy;
-    background: #555;
+/*    background: navy;
+    background: #555;*/
 }
 nav {
     font-family: "Open Sans", "Arial", sans-serif;
@@ -199,9 +199,11 @@ figcaption {
 #slogan-with-icon-bar {
 	padding-bottom: 300px;
     margin-bottom: 30px;
-    /*background: url("https://bostonma.github.io/unit_8/images/stockidea1.png");*/
-/*    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_87172684_WM.png");
-*/    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_48522385_WM.png");
+    /*background: url("https://bostonma.github.io/unit_8/images/stockidea1.png");
+    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_87172684_WM.png");
+    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_48522385_WM.png");*/
+	background: url("https://bostonma.github.io/unit_8/images/AdobeStock_48522385_no_shadow-v2.png");
+	background-size: cover;
     border: 1px solid black;
 }
 /*#skyline-image {
