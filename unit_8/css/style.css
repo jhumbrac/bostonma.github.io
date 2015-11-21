@@ -9,9 +9,10 @@ body {
     font-size: 18px;
     background: #f5f5f5;
     font-family: "Futura";
+    background: #fff;
 }
 header {
-
+    background-color: #4EC2EC;
 }
 nav {
     font-family: "Open Sans";
@@ -23,6 +24,7 @@ nav {
     float: right;
     font-size: .9em;
     box-shadow: 1px 1px 10px #999;
+    border: 1px solid black;
 }
 nav a{
     color: #fff;
@@ -211,6 +213,9 @@ figcaption {
 }
 #aside-image {
     width: 50%;
+}
+#pig {
+	border-radius: 20%
 }
 #clickablemap {
     background-color: #ffffee;
