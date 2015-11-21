@@ -155,7 +155,9 @@ figcaption {
 }
 .icon-bar {
 	background: white;
-	opacity: 0.75;
+/*	opacity: 0.75;
+*/	width: 45%;
+	float: right;
 }
 .icon-column {
     background-color: #f5f5f5;
@@ -177,7 +179,7 @@ figcaption {
 }
 #slogan {
 	font-family: "Futura", "Trebuchet MS", "Didact Gothic"; 
-    color: #FFF;
+    color: orange;
     font-size: 35px;
     font-weight: 100;
     text-align: right;
@@ -191,9 +193,15 @@ figcaption {
 	padding: 70px;
     margin-bottom: 30px;
     box-shadow: 1px 1px 10px #999;	
-/*    background: url("https://bostonma.github.io/unit_8/images/stockidea1.png");
-*/    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_87172684_WM.png");
+    /*background: url("https://bostonma.github.io/unit_8/images/stockidea1.png");*/
+    background: url("https://bostonma.github.io/unit_8/images/AdobeStock_87172684_WM.png");
+    opacity: 0.5;
 }
+/*#skyline-image {
+	float: left;
+	width: 40%;
+	opacity: .5;
+}*/
 #clickablemap {
     background-color: #fff;
     padding: 30px;
