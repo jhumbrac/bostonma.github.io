@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Didact+Gothic|Source+Sans+Pro);
 
 body {
     color: #3b444f;
@@ -11,26 +11,31 @@ body {
     background: #ffffee;
 }
 header {
-    background-color: #4EC2EC;
+    background: #fafafa;
+    padding-top: 1%;
 }
 nav {
     font-family: "Open Sans", "Arial", sans-serif;
-    padding: 10px;
-    width: 50%;
-    float: right;
     font-size: .9em;
+    padding-left: 30%;
 }
-nav a{
-    color: #fff;
-    margin: 3.25%;
-	display: inline-block;
+nav a {
+    color: #000;
+    display: inline-block;
+    float: left;
+	padding: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+nav a:hover{
+	background-color: #ddd;
 }
 footer a {
     color: #fff;
 }
 footer {
     margin-bottom: 30px;
-    background-color: #4EC2EC;    
+    background-color: #1B6CE8;    
     padding: 20px;
     margin-top: 30px;
     font-family: "Open Sans," Arial, sans-serif;
@@ -41,13 +46,17 @@ footer {
 }
 h1 {
     font-family: "Fredericka the Great", Georgia, serif; 
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 70px;
+    font-size: 4em;
     font-weight: 100;
     font-variant: small-caps;
-    text-align: left;
-    letter-spacing: 0.09em;
+    text-align: center;
+    letter-spacing: 0.08em;
+    padding-bottom: 1%;
+    
+}
+h1 a {
+	text-decoration: none;
+	color: #3b444f;
 }
 h2 {
     margin: 10px auto 10px 50px;
@@ -107,7 +116,7 @@ figcaption {
 	text-align: center;
 	margin-top: 30px;
     margin-bottom: 30px;
-    background: #fff;
+    background: #fafafa;
     box-shadow: 1px 1px 10px #999;
 }
 .neighborhood-button {
@@ -160,22 +169,22 @@ figcaption {
     width: 50%;
 }
 #bt-logo {
-	width: 70%;
-	margin-left:10px;
+	width: 50%;
 }
 #pig {
 	border-radius: 20%;
 	width: 10%;
 }
 #slogan {
-	font-family: "Futura", "Trebuchet MS", "Didact Gothic"; 
+	font-family: "Futura", "Source Sans Pro", "Trebuchet MS", "Didact Gothic"; 
     color: orange;
-    font-size: 2.5em;
-    text-align: right;
+    font-size: 2.25em;
+    text-align: left;
     float: right;
 	line-height: 1.5em;
     width: 50%;
 	margin-right: 5%;
+	margin-top:50px;
 }
 #icon-bar {
 	background: white;
@@ -219,5 +228,11 @@ figcaption {
     height: 400px;
     background-color: #CCC;
 }
-
+#navigation-bar {
+	height: 40px;
+	background-color: #1B6CE8;
+	background: #f1f1f1;
+	box-shadow: 0px 1px 0px #999;
+/*	opacity: 0.75;*/
+}
 
