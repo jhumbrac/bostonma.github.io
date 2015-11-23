@@ -4,10 +4,6 @@ body {
     color: #3b444f;
     font-size: 18px;
     font-family: "Futura", "Trebuchet MS", "Didact Gothic";
-    background: -webkit-linear-gradient(#fff, #ffffee); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#fff, #ffffee); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#fff, #ffffee); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#fff, #ffffee); /* Standard syntax (must be last) */;
     background: #ffffee;
 }
 header {
@@ -83,6 +79,9 @@ p {
 a {
   text-decoration: none;
 }
+a span {
+	color: #E82C0C;
+}
 h1 span {
     font-size: 80px;
 }
@@ -121,7 +120,6 @@ figcaption {
     width: 20%;
     min-width: 185px;
     margin: 2.46%;
-    border: 3px solid #fff;
     position:relative;
 }
 .neighborhood-button:hover {
@@ -167,6 +165,13 @@ figcaption {
 .icon-image {
     width: 50%;
 }
+.map-title {
+	color: orange;
+}
+.blog-content {
+	font-family: "Open Sans", "Arial", sans-serif;
+    font-size: .9em;
+}
 #bt-logo {
 	width: 50%;
 }
@@ -185,8 +190,9 @@ figcaption {
 	font-family: "Futura", "Source Sans Pro", "Trebuchet MS", "Didact Gothic"; 
     color: orange;
     font-size: 2.25em;
-    text-align: center;
+    text-align: left;
     padding-top: 4%;
+    padding-left:15%;
 }
 #icon-bar {
 	background: white;
@@ -206,14 +212,14 @@ figcaption {
 }
 #clickablemap {
     background-color: #fff;
-    padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 1px 1px 10px #999;
 }
 #aerialmap {
-    width: 100%;
-    border-radius: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom:30px;
 }
 #name-field {
     width: 30%;
@@ -234,7 +240,5 @@ figcaption {
 	height: 40px;
 	background-color: #1B6CE8;
 	background: #f1f1f1;
-	box-shadow: 0px 1px 0px #999;
-/*	opacity: 0.75;*/
+	border-bottom: 1px solid #000;
 }
-
