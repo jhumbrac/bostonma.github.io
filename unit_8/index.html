@@ -2,33 +2,32 @@
 <html>
 <head>
 	<title>Boston Trotter</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
-		<div>
-			<h1><a href="index.html">Boston Trotter</a></h1>
-		</div>
+		<h1><a href="index.html">Boston Trotter</a></h1>
 	</header>
-	<section id="navigation-bar">
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="about.html">About Us</a>
-			<a href="contact.html">Contact Us</a>
-			<a href="blog.html">Blog</a>
-			<a href="#">Neighborhoods<span> &#9660<span></a>
-			<a href="#">Download Our App</a>
-		</nav>
-	</section>
-	<section id="slogan-with-icon-bar" class="clearfix">
-		<div class="clearfix" style="clear:both">
-			<div id="slogan">Explore Boston neighborhoods<br>with <span>interactive</span> walking routes
-			</div>
-		</div>
+	<nav id="navigation-bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="#">Neighborhoods <span>&#9660;<span></a>
+				<ul>
+					<li>Cambridge</li>
+					<li>Bunker Hill</li>
+				</ul>
+			</li>
+			<li><a href="#">Download Our App</a></li>
+		</ul>
+	</nav>
+	<section id="slogan-with-icon-bar">
+		<p id="slogan">Explore Boston neighborhoods with interactive walking routes</p>
 	</section>	
-	<div class="wrapper" class="clearfix">	
-		<section class="neighborhood-type" style="clear:both">
+	<div class="wrapper">	
+		<section class="neighborhood-type">
 			<div class="clearfix">
 				<h2>Major Neighborhoods</h2>
 				<h4 class="neighborhood-tag">Discover Boston's prime neighborhoods. With zipcodes placing them within the city limits, each of these urban locales has a distinct personality.</h4>
@@ -89,7 +88,7 @@
 				<a class="neighborhood-button" href="#" alt="illustration" title="#">
 					<h3>Leather District</h3>
 				</a>
-		</div>	
+			</div>	
 		</section>	
 
 	<!--  	<section id="clickablemap">
@@ -107,9 +106,9 @@
 	 		<h2 class="map-title">Click on a neighborhood to go to its walking route:</h2>
 	 		<img id="aerialmap" src="https://bostonma.github.io/unit_8/images/boston-image-map-v2.png">
 	 	</section>
-
 	</div>
-		<footer>&copy 2015 Boston Trotter</a>
-		</footer>
+	<footer>
+		<p>&copy; 2015 Boston Trotter</p>
+	</footer>
 </body>
 </html>
