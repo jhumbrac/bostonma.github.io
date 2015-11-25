@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Didact+Gothic|Source+Sans+Pro);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
     color: #3b444f;
     font-size: 18px;
@@ -15,9 +15,17 @@ nav {
     font-size: .9em;
     text-align: center;
 }
+nav li ul { 
+	display:none;
+}
+nav li:hover ul {
+	display:block;
+}
+nav li {
+	display:inline-block;
+}
 nav a {
-    color: #000;
-    display: inline-block;
+	color: #000;
 	padding: 10px;
 	margin-left: 1%;
 	margin-right: 1%;
@@ -26,7 +34,7 @@ nav a:hover{
 	background-color: #ddd;
 }
 footer {
-	background: #ccc;
+    background: #ccc;
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: .9em;
     color: #000;
@@ -176,15 +184,14 @@ figcaption {
 	width: 50%;
 }
 #slogan {
-	font-family: "Futura", "Source Sans Pro", "Trebuchet MS", "Didact Gothic"; 
-    color: orange;
-    font-size: 2.25em;
-    text-align: left;
-    float: right;
+	font-family: "Futura", "Source Sans Pro", "Trebuchet MS", "Didact Gothic", sans-serif; 
+	color: orange;
+	font-size: 2.25em;
+	text-align: left;
 	line-height: 1.5em;
-    width: 50%;
-	margin-right: 5%;
 	margin-top:50px;
+	position:absolute;
+	left:45%;
 }
 #about {
 	font-family: "Futura", "Source Sans Pro", "Trebuchet MS", "Didact Gothic"; 
@@ -201,14 +208,13 @@ figcaption {
 	margin: 20px;
 }
 #slogan-with-icon-bar {
-	padding-bottom: 300px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 	background: url("https://bostonma.github.io/unit_8/images/AdobeStock_48522385_no_shadow-v2.png");
 	opacity: 0.85;
 	background-size: 1200px 375px;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom center;
+	height:400px;
+	position:relative;
 }
 #clickablemap {
     background-color: #fff;
